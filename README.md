@@ -79,21 +79,3 @@ The base URL for the API is `/api/v1/`.
 * `POST /tasks/{id}/mark-completed/`: Marks a task as completed.
 * `POST /tasks/{id}/mark-uncompleted/`: Marks a task as uncompleted.
 
-## How to Contribute (Optional)
-
-If you want to add a section on how others can contribute:
-
-1.  Fork the Project
-2.  Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3.  Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4.  Push to the Branch (`git push origin feature/AmazingFeature`)
-5.  Open a Pull Request
-
-## License (Optional)
-
-Distributed under the MIT License. See `LICENSE` for more information.
-*(If you add a LICENSE file to your project)*
-
----
-
-Developed by [Your Name/Nickname](link_to_your_github_profile_or_website)
