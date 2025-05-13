@@ -1,0 +1,70 @@
+# Arquivos de Bytecode e Otimizados do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Arquivos de Banco de Dados
+# (Se você estiver usando SQLite para desenvolvimento local, como é comum)
+*.sqlite3
+db.sqlite3
+
+# Arquivos de Ambiente Virtual
+# (A pasta do seu ambiente virtual, ex: venv, .venv, env)
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Arquivos de configuração de IDEs e editores
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+nbproject/
+
+# Arquivos de sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de log
+*.log
+logs/
+
+# Arquivos de mídia e estáticos coletados pelo Django (se você não quiser versioná-los)
+# Se você quiser que o `collectstatic` seja executado no deploy, pode ignorar essas pastas.
+# Se você versiona seus estáticos compilados, remova estas linhas.
+# mediafiles/
+# staticfiles/
+# /static/ # Cuidado para não ignorar seus arquivos estáticos de desenvolvimento nos apps
+
+# Arquivos de dependências (geralmente gerenciados por requirements.txt)
+# node_modules/ # Se você usar Node.js para front-end
+
+# Arquivos de segredos e configuração local
+# Crie um arquivo .env para suas variáveis de ambiente e adicione .env aqui.
+.env
+*.local
+
+# Arquivos de teste e cobertura
+.coverage
+htmlcov/
+pytest_cache/
+.pytest_cache/
+
+# Arquivos do Django
+# migrations/ irá conter os arquivos de migração, geralmente é bom versioná-los,
+# exceto se você tiver uma política específica para não fazê-lo.
+# Se você não quiser versionar migrações de apps específicos, adicione-os:
+# nome_do_app/migrations/0*.py
+# !nome_do_app/migrations/__init__.py # Para manter o __init__.py
+
+# Arquivos de build/distribuição
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Arquivos de backup
+*.bak
