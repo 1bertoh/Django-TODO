@@ -13,9 +13,9 @@ A simple RESTful API built with Django and Django REST Framework to manage a TOD
 
 ## Technologies Used
 
-* [Python](https://www.python.org/) (version X.X.X)
-* [Django](https://www.djangoproject.com/) (version X.X.X)
-* [Django REST Framework](https://www.django-rest-framework.org/) (version X.X.X)
+* [Python](https://www.python.org/) (version 3.11.9)
+* [Django](https://www.djangoproject.com/) (version 5.2.1)
+* [Django REST Framework](https://www.django-rest-framework.org/) (version 5.16.0)
 * [SQLite](https://www.sqlite.org/index.html) (default database for development)
 
 ## Prerequisites
